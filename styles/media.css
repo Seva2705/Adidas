@@ -1,0 +1,76 @@
+@media(max-width:1400px) {
+    .header-img {
+        width: max-content;
+        height: 150px;
+        
+        
+    }
+    .header-description {
+        font-size: 20px;
+        
+    }
+    .header-title {
+        font-size: 45px;
+    }
+   
+}
+
+@media(max-width: 1200px) {
+    .clothing-lists {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+    }
+  
+}
+
+@media (max-width: 992px) {
+    .cards {
+        flex-wrap: wrap;
+        justify-content: center;
+        background: #181D28;
+        gap: 20px;
+       
+    }
+    
+    .gear-img {
+        width: 100%;
+    }
+    .header-img {
+        width: max-content;
+        height: 100px;
+        
+        
+    }
+}
+
+@media (max-width: 768px) {
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+    }
+    .header-title {
+        font-size: 40px;
+    }
+    .footer {
+        flex-wrap: wrap;
+        gap: 20px;
+        justify-content: center;
+    }
+    
+    
+}
+
+@media (max-width: 576px) {
+   .cards{
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-color: #181D28 ;
+   }
+   .card {
+    width: 100%;
+   }
+   
+}
